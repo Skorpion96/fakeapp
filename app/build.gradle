@@ -20,11 +20,11 @@ android {
             keyPassword keyKeyAliasPassword
         }
     }
-    namespace 'com.wtbruh.fakelauncher'
+    namespace 'com.fake.app'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.wtbruh.fakelauncher"
+        applicationId "com.fake.app"
         minSdk 21
         targetSdk 35
         versionCode 3
