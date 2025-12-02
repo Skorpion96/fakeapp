@@ -33,13 +33,13 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
-            android:exported="true"
+            android:name="null"
+            android:exported="false"
             android:launchMode="singleTask"
             android:noHistory="true" />
         <activity
-            android:name=".ActivityShortcut"
-            android:exported="true"
+            android:name="null"
+            android:exported="false"
             android:label="@string/shortcut_name"
             android:noHistory="true">
             <intent-filter>
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.VolumeActivity"
+            android:name="null"
             android:exported="false"
             android:theme="@style/Theme.FakeLauncher"/>
         <activity
@@ -60,7 +60,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
             <meta-data
@@ -71,12 +70,12 @@
             android:name=".SettingsActivity$PermissionStatus"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="null"
             android:exported="false"
             android:launchMode="singleTask"
             android:theme="@style/Theme.FakeLauncher"/>
         <activity
-            android:name=".SubActivity"
+            android:name="null"
             android:exported="false"
             android:theme="@style/Theme.FakeLauncher"/>
 
